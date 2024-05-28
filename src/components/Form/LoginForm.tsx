@@ -4,6 +4,7 @@ import { useState } from "react";
 import { AxiosResponse } from "axios";
 import { useNavigate } from "react-router-dom";
 import { Auth } from "../../api";
+import React from "react";
 
 type DataType = {
   username?: React.ChangeEvent<HTMLInputElement>,
